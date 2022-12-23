@@ -1,4 +1,4 @@
-# Two Sum (63 times): 
+# Two Sum : 
 
 ## 문제
 
