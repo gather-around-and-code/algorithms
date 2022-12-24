@@ -3,7 +3,8 @@
 
 ## 문제
 
-- [day01: Two Sum](https://github.com/gather-around-and-code/algorithms/day1/README.md)
+- [day02: Decode String](https://github.com/gather-around-and-code/algorithms/tree/master/day2)
+- [day01: Two Sum](https://github.com/gather-around-and-code/algorithms/tree/master/day1)
 
 
 ## 출처
