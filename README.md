@@ -33,12 +33,12 @@ git commit -am "<ticketNumber>_<type>_<description>
 
 ## 문제
 
-- [day02: Decode String](https://github.com/gather-around-and-code/algorithms/tree/master/day2)
+- [day03: Race Car](https://github.com/gather-around-and-code/algorithms/issues/3)
+  - Most Popular Problems for Google
+- [day02: Decode String](https://github.com/gather-around-and-code/algorithms/issues/1)
   - Most Popular Problems for Bloomberg 
-  - 난이도 : **Medium**
-- [day01: Two Sum](https://github.com/gather-around-and-code/algorithms/tree/master/day1)
+- [day01: Two Sum](https://github.com/gather-around-and-code/algorithms/issues/2)
   - Most Popular Problems for Oracle 
-  - 난이도 : **Easy**
 
 
 ## 출처
