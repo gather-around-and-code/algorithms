@@ -6,8 +6,8 @@
 
 ```
 
-git commit -ma "<ticketNumber>_<type>_<description>
-# git commit -ma "#2_<type>_Modify .."
+git commit -am "<ticketNumber>_<type>_<description>
+# git commit -am "#2_<type>_Modify .."
 
 ```
 
