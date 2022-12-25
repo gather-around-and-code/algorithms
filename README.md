@@ -2,6 +2,15 @@
 
 매일 한 개의 알고리즘 문제를 올려보려고 합니다.
 
+## commit rules(수정예정)
+
+```
+
+git commit -ma "<ticketNumber>_<type>_<description>
+# git commit -ma "#2_<type>_Modify .."
+
+```
+
 ## 파일명
 
 ```bash
