@@ -7,7 +7,7 @@
 ```
 
 git commit -am "<ticketNumber>_<type>_<description>
-# git commit -am "#2_<type>_Modify .."
+# git commit -am "#2_<type>:Modify .."
 
 ```
 
@@ -33,12 +33,10 @@ git commit -am "<ticketNumber>_<type>_<description>
 
 ## 문제
 
+- [day04: Number of Islands](https://github.com/gather-around-and-code/algorithms/issues/4)
 - [day03: Race Car](https://github.com/gather-around-and-code/algorithms/issues/3)
-  - Most Popular Problems for Google
 - [day02: Decode String](https://github.com/gather-around-and-code/algorithms/issues/1)
-  - Most Popular Problems for Bloomberg 
 - [day01: Two Sum](https://github.com/gather-around-and-code/algorithms/issues/2)
-  - Most Popular Problems for Oracle 
 
 
 ## 출처
