@@ -46,8 +46,6 @@ git commit -am "<type>(ticket_number): <description>
 
 ```bash
 .
-├── 9H05T
-│   └── Mergesort
 ├── day1
 └── day2
  ....
