@@ -1,8 +1,10 @@
-# 알고리즘(algorithms)
+# 알고리즘(algorithms) :eyes:
 
-매일 알고리즘 문제 풀이
+백준에 올려진 문제들을 풀고 문제 해결을 위한 다양한 방법과 절차를 탐색하는 과정을 가지기 위하여 개설하였습니다. 
 
-## 파일명
+<br>
+
+## :paperclip: 파일명 
 
 ```bash
 githubname.lang
@@ -15,7 +17,9 @@ githubname.lang
 # 1659: 수 (Hard) (#4)
 ```
 
-## 폴더 및 파일 구조
+<br>
+
+## :file_cabinet: 폴더 및 파일 구조
 
 ```bash
 .
@@ -36,10 +40,12 @@ githubname.lang
 └── class10
 ```
 
-## 이슈 생성 및 클로즈
+<br>
+
+## :pushpin: 이슈 생성 및 클로즈
 - 등록된 문제가 이슈로 등록되어있는 지 확인
 - 등록된 이슈가 없을 시 이슈 등록
-  - (필수) label 1종 이상 추가
+  - :label: (필수) label 1종 이상 추가
     - label 종류(총 215개)
       - 주제별
       - 클래스별
@@ -48,12 +54,16 @@ githubname.lang
 - 커밋된 내용 확인 후 이슈에서 코멘터리
 - 참여자들 중 마지막 주자의 풀이가 푸시 된 후 마지막 문제 풀이자 외 Assignees에 할당된 2인 이상 확인 후 이슈 클로즈
 
-# 참여자 ✨
+<br>
+
+## :key: 출처
+- [백준](https://www.acmicpc.net/)
+
+<br>
+
+## ✨ 참여자
 
 <a href="https://github.com/gather-around-and-code/algorithms/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=gather-around-and-code/algorithms" />
 </a>
 
-
-## 출처
-- [백준](https://www.acmicpc.net/)
