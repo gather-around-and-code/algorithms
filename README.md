@@ -50,7 +50,7 @@ githubname.lang
 
 # 참여자 ✨
 
-[![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/gather-around-and-code/algorithms)
+[![](https://contrib.rocks/image?repo=gather-around-and-code/algorithms?width=890&button=false)](https://github.com/gather-around-and-code/algorithms)
 
 ## 출처
 - [백준](https://www.acmicpc.net/)
