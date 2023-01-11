@@ -73,4 +73,5 @@ githubname.lang
 
 ## :loud_sound: 알람
 운영 중인 디스코드 채널을 통해 등록된 이슈 및 git 로그의 알림이 전달됩니다. 
-<img src="https://user-images.githubusercontent.com/48350491/211688745-3d565882-cc59-4361-a285-ae441a1bafae.png" with="500" height="auto" /> 
+
+<img src="https://user-images.githubusercontent.com/48350491/211688745-3d565882-cc59-4361-a285-ae441a1bafae.png" width="400" height="400" > 
