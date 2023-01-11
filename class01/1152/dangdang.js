@@ -16,10 +16,6 @@ rl.on('close', () => {
 
 
 function solution(line) {
-	const words = line.trim().split(' ');
-	let length = 0;
-
-	words.forEach(() => length++);
-
-	console.log(length);
+	const words = line.trim().split(' ').filter(p => p != null && p != undefined && p != '');
+	console.log(words.length);
 }
