@@ -73,6 +73,8 @@ githubname.lang
 
 
 <br>
+<br>
+
 
 ## :loud_sound: 알람
 운영 중인 디스코드 채널을 통해 등록된 이슈 및 git 로그의 알림이 전달됩니다. 
