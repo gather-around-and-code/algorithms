@@ -1,4 +1,6 @@
-# 알고리즘(algorithms) :eyes:
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fgather-around-and-code%2Falgorithms&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
+# 알고리즘(algorithms) :eyes: 
 
 백준에 올려진 문제들을 풀고 문제 해결을 위한 다양한 방법과 절차를 탐색하는 과정을 가지기 위하여 개설하였습니다. 
 
@@ -59,6 +61,7 @@ githubname.lang
 
 ## :key: 출처
 - [백준](https://www.acmicpc.net/)
+
 
 <br>
 
