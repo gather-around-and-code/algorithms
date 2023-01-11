@@ -1,21 +1,21 @@
 use std::io;
 
 fn main() {
-  let mut s = String::new();
+  let mut line = String::new();
+  io::stdin().read_line(&mut line).expect("");
 
-  io::stdin()
-    .read_line(&mut s)
-    .expect("");
+  let inputs: Vec<i32> = line.split_whitespace()
+  .map(|f| f.parse().expect(""))
+  .collect();
 
-  let n: i32 = s
-  .trim()
-  .parse()
-  .expect("");
+  let mut m = inputs[0];
+  let mut n = inputs[1];
 
-  for i in 0..n {
-    for j in 0..i+1 {
-      print!("*");
-    }
-    print!("\n");
+  let mut arr:[i32;10000000];
+  let stop:i32 = arr.len() as i32;
+
+  // how can initilize array in Rust?
+  for i in 0..stop {
+    arr[i] = i;
   }
 }
