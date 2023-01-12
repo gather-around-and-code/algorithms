@@ -11,5 +11,5 @@ for i in range(len(words)):
     if words[i] != '':
         count += 1
         # 파이썬에서 증가(++)는 +=1 
-ㄴ
+
 print(count)
