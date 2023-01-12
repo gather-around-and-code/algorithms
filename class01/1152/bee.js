@@ -13,6 +13,9 @@
 //     }
 // }
 
+// 변경 이유
+// split으로 이미 공백('';띄어쓰기)가 제거되었으므로 다시 확인하는 것은 의미가 없어서
+// 비어있지 않은 단어 수만 계산할 수 있도록 변경 
 const input = require("fs").readFileSync("/dev/stdin").toString().trim();
 const words = input.split(' ');
 
