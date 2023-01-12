@@ -59,6 +59,18 @@ githubname.lang
 
 <br>
 
+<br>
+
+## :note: 소스코드 작성 주의 사항
+- 동작하는(컴파일 가능한) 소스코드 일 것 (오류는 상관 없음)
+- 하나의 문제를 여러가지로 푼 경우, name_method.ex 형태로 파일을 새로 만들 것
+- 소스코드 내의 legacy code는 삭제
+- 주석이 길어지는 경우 README.md 이용
+- Pseudo code나 메모를 적는 경우, 정리하여 md 파일로 업로드
+
+<br>
+
+
 ## :key: 출처
 - [백준](https://www.acmicpc.net/)
 
