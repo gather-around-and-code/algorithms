@@ -69,7 +69,7 @@ githubname.lang
 <br>
 
 
-## :key: 출처
+## :notebook_with_decorative_cover: 출처
 - [백준](https://www.acmicpc.net/)
 
 
