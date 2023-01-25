@@ -1,47 +1,28 @@
-use std::io;
-
+use std::{io, usize};
 fn main() {
-  let limit = 100;
-  // let mut line = String::new();
-  // io::stdin().read_line(&mut line).expect("");
+  let max = 1000001;
+  let mut buf = String::new();
+  io::stdin().read_line(&mut buf)
+  .expect("");
 
-  let mut is_prime = vec![true; limit + 1];
-  is_prime[0] = false;
-  if limit >= 1 {
-    is_prime[1] = false 
+  let s: Vec<usize> = buf.split_ascii_whitespace().into_iter().map(|x| x.parse::<usize>().unwrap_or(0)).collect();
+  let mut primes: Vec<bool> = Vec::new();
+  for _ in 0..max {
+    primes.push(true);
   }
-
-  for num in 2..limit+1 {
-    if is_prime[num] {
-      let mut multiple = num * num;
-      println!("{}", multiple);
-      while multiple <= limit {
-        is_prime[multiple] = false;
-        multiple = num;
+  
+  let m = (max as f64).sqrt() as usize;
+  for i in 2..m+1 {
+    if primes[i] {
+      for j in (i+i..max).step_by(i) {
+        primes[j] = false;
       }
     }
   }
 
-  let v:Vec<usize> = is_prime.iter().enumerate()
-    .filter_map(|(pr, &is_pr)| if is_pr { Some(pr) } else {None})
-    .collect();
-
-  for i in 5..10 {
-    if is_prime[i] {
-      println!("{}", v[i]);
+  for i in s[0]..=s[1] {
+    if primes[i] {
+      println!("{}", i.to_string());
     }
   }
-
-  // let inputs: Vec<usize> = line.split_whitespace()
-  // .map(|f| f.parse().expect(""))
-  // .collect();
-
-  // let mut m:usize = inputs[0];
-  // let mut n:usize = inputs[1];
-
-  // for index in m..n {
-  //   if is_prime[index] {
-  //     println!("{}", index);
-  //   }
-  // }
 }
