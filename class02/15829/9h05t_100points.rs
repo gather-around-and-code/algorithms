@@ -21,13 +21,13 @@ fn main() {
   let mut res = 0;
   for (i, &c) in a.iter().enumerate() {
     let mut pow = 1;
+    // From rolling hashing formular, each character cacculated.
     for _ in 0..i {
+      // From Sigma modular lawer, each value to calculate a modular
       pow = pow * r % M;
     }
     res = (res + c * pow);
   }
 
-  res = res % M;
-
-  println!("{}", res);
+  println!("{}", res % M);
 }
